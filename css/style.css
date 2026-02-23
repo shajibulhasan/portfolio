@@ -292,6 +292,39 @@
             -webkit-background-clip: text;
         }
 
+    /* experience section */
+        .experience {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+        }
+        .experience-card {
+            background: white;
+            border-radius: 30px;
+            padding: 30px;
+            box-shadow: 0 20px 40px -10px rgba(102,126,234,0.2);
+            transition: 0.4s;
+            height: 100%;
+        }
+        .experience-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 30px 50px -10px rgba(102,126,234,0.4);
+        }
+        .experience-card h4 {
+            color: #2d3436;
+            font-weight: 700;
+        }
+        .experience-card p {
+            color: #636e72;
+            margin-bottom: 15px;
+        }
+        .experience-card ul {
+            list-style: disc inside;
+            color: #636e72;
+        }
+        .experience-card ul li {
+            margin-bottom: 10px;
+        }
+
         /* === Projects with gradient overlays === */
         .projects {
             padding: 100px 0;
