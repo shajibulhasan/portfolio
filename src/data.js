@@ -32,10 +32,10 @@ export const projects = [
     tags: ["React.js", "Responsive UI"], live: "https://millennium-solution.vercel.app/", source: "https://github.com/shajibulhasan/millennium-solution" },
   { name: "B & Y Private Ltd.", type: "Construction website", hue: 215, image: `${B}asset/by-private.png`,
     desc: "Website for a construction and engineering company in Agrabad, Chittagong, presenting residential, commercial and industrial projects.",
-    tags: ["React.js", "Responsive UI"], live: "https://b-y-private-ltd.vercel.app" },
+    tags: ["React.js", "Responsive UI"], live: "https://b-y-private-ltd.vercel.app", source: "https://github.com/shajibulhasan/b-y-private-ltd" },
   { name: "Astana-e-Pak Darbare Musabia", type: "Spiritual darbar website", hue: 150, image: `${B}asset/astana.png`,
     desc: "Bengali-language website for a spiritual darbar, with a simple, readable and mobile-friendly layout.",
-    tags: ["React.js", "Responsive UI", "Bengali content"], live: "https://astanaepakdarbaremusabia.com" },
+    tags: ["React.js", "Responsive UI", "Bengali content"], live: "https://astanaepakdarbaremusabia.com", source: "https://github.com/shajibulhasan/darbar-site-v2" },
 ];
 export const services = [
   ["Web development", "🌐", "Responsive full stack web apps with Laravel and React.js."],
